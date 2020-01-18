@@ -9,12 +9,6 @@ def before_out():
 @pytest.mark.usefixtures('outx')  # 类引用可以引用类内部和类外部的工厂函数，作用于类中的每一个测试方法
 class TestFixture:
 
-    # def setup(self):  # setup低于工厂函数
-    #     print('setup')
-    #
-    # def setup_class(self):  # setup_class高于工厂函数
-    #     print('setup_class')
-
     @pytest.fixture(name='inx')  # 工厂函数被调用时是优先运行的，默认方法名作为工厂函数名字，当指定name残烛时，那么函数名不再作为工厂函数的名字
     def before_in(self):
         print('\nbefore_in')
