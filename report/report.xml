@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="DESKTOP-T0QCJDK" name="pytest" skipped="0" tests="2" time="0.144" timestamp="2020-01-18T12:26:56.013778"><testcase classname="test_main" file="test_main.py" line="3" name="test_001" time="0.017"></testcase><testcase classname="test_main" file="test_main.py" line="8" name="test_002" time="0.002"><failure message="assert False">def test_002():
+        print(&apos;test_002&apos;)
+&gt;       assert False
+E       assert False
+
+test_main.py:11: AssertionError</failure></testcase></testsuite></testsuites>
