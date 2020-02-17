@@ -1,13 +1,13 @@
 """pytest初始化和结束方法"""
 
-# 3、模块级别setup_module
+# 3、模块级别setup_module（了解）
 #   1 只能作⽤于测试类外部
 #   2 只会在整个⽂件中最开始运⾏⼀次
 def setup_module():
     print('\n ---模块级别setup_module')
 
 
-# 4、功能级别setup_function，仅限于类外面的测试方法
+# 4、功能级别setup_function，仅限于类外面的测试方法（了解）
 def setup_function():
     print('\n ---功能级别setup_function')
 

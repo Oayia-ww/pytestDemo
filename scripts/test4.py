@@ -5,6 +5,7 @@
 # pytest测试方法优先级插件：pip install pytest-ordering，使用方式：注解的形式
 # pytest测试报告插件：pip install pytest-html(可生成xml/html报告)
 
+# 优先级总结：0 > 正数(越小越高) > 未标记测试方法 > 负数(越小越高)
 class TestFile:
 
     def setup_class(self):
