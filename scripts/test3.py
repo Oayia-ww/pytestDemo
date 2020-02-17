@@ -1,3 +1,4 @@
+"""常用断言方式"""
 import time
 
 from util import get_driver

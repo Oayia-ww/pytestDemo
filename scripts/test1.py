@@ -1,3 +1,4 @@
+"""pytest的两种运行方式"""
 import pytest
 
 
@@ -21,4 +22,4 @@ def test_002():
 #               搜索类中以test开头的方法
 # ★ 命令行运行方式是项目唯一方式，方便持续集成和项目管理
 if __name__ == '__main__':
-    pytest.main(['1_pytest的两种运行方式.py'])
+    pytest.main(['test1.py'])

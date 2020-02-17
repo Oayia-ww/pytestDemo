@@ -1,3 +1,4 @@
+"""工厂函数"""
 import pytest
 
 
